@@ -1,0 +1,23 @@
+#footer {
+    background-color: #242424;
+}
+.footer-top {
+   
+    width: 100%;
+}
+.footer-top-area {
+    text-align: center;
+    width: 100%;
+}
+.footer-logo img{
+    width: 200px;
+    margin-top: 20px;
+}
+.footer-bottom{
+    padding: 12px;
+    border-top: 1px solid #fff;
+}
+.footer-bottom p{
+    text-align: center;
+    color: #fff;
+}
