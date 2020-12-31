@@ -7,6 +7,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NgImageSliderModule } from 'ng-image-slider';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactUsComponent } from './components/contact-us/contact-us.component
   ],
   imports: [
     BrowserModule,
-    NgImageSliderModule
+    NgImageSliderModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
