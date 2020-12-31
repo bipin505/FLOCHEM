@@ -1,0 +1,39 @@
+.contact-us{
+    background: url('/assets/images/contact.jpg');
+    display: block;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.contact-us-container{
+    margin-bottom: 20px;
+}
+.contact-us .contact{
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-right: 50px;
+    border-radius: 50%;
+    background-color: #000;
+    opacity: 0.7;
+    position: relative;
+}
+.ng-fa-icon{
+    display: block;
+    margin-bottom: 16px;
+    color: #8B008B;
+    position: relative;
+    top: 30%;
+    left: 60px;
+}
+.ng-fa-icon::after {
+    content: attr(text);
+    padding-left: 12px;
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    width: 250px;
+  }

@@ -1,43 +1,58 @@
-import { Component, ViewChild } from '@angular/core';
-import { NgImageSliderComponent } from 'ng-image-slider';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  @ViewChild('nav') slider: NgImageSliderComponent;
+export class AppComponent implements OnInit {
 
   title = 'flochem-app-new';
   imageObject = [{
-    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/5.jpg',
-    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/5.jpg',
-    title: 'Hummingbirds are amazing creatures'
+    image: '/assets/images/1.jpg',
+    thumbImage: '/assets/images/1.jpg',
+    title: ''
   }, {
-    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/9.jpg',
-    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/9.jpg'
+    image: '/assets/images/2.jpg',
+    thumbImage: '/assets/images/2.jpg'
   }, {
-    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/4.jpg',
-    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/4.jpg',
-    title: 'Example with title.'
+    image: '/assets/images/3.jpg',
+    thumbImage: '/assets/images/3.jpg',
+    title: ''
   }, {
-    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/7.jpg',
-    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/7.jpg',
-    title: 'Hummingbirds are amazing creatures'
+    image: '/assets/images/4.jpg',
+    thumbImage: '/assets/images/4.jpg',
+    title: ''
   }, {
-    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/1.jpg',
-    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/1.jpg'
+    image: '/assets/images/5.jpg',
+    thumbImage: '/assets/images/5.jpg',
+    title: ''
   }, {
-    image: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/2.jpg',
-    thumbImage: 'https://sanjayv.github.io/ng-image-slider/contents/assets/img/slider/2.jpg',
-    title: 'Example two with title.'
+    image: '/assets/images/6.jpg',
+    thumbImage: '/assets/images/6.jpg',
+    title: ''
+  },
+  {
+    image: '/assets/images/7.jpg',
+    thumbImage: '/assets/images/7.jpg',
+    title: ''
   }];
-  prevImageClick() {
-    this.slider.prev();
-  }
+  ngOnInit() {
+    window.onscroll = function () { myFunction() };
 
-  nextImageClick() {
-    this.slider.next();
+    // Get the header
+    var header = document.getElementById("myHeader");
+
+    // Get the offset position of the navbar
+    var sticky = header.offsetTop;
+
+    // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
   }
 }
