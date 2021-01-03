@@ -8,6 +8,7 @@ import { NgImageSliderModule } from 'ng-image-slider';
 import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ProductsComponent } from './components/products/products.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     HeaderComponent,
     FooterComponent,
     AboutUsComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,

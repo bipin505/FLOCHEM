@@ -98,3 +98,10 @@ img {
     -moz-transform: rotate(360deg);
     -o-transform: rotate(360deg);
 }
+.about-us-content{
+    background: #FFFFFF;
+background: -webkit-linear-gradient(top left, #FFFFFF, #8B008B);
+background: -moz-linear-gradient(top left, #FFFFFF, #8B008B);
+background: linear-gradient(to bottom right, #FFFFFF, #8B008B);
+height: 600px;
+}
