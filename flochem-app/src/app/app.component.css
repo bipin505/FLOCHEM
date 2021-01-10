@@ -3,3 +3,17 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width: 768px) {
+    ::ng-deep
+    .image-slider-container{
+        height: 300px !important;
+    }
+    ::ng-deep .ng-image-slider{
+        height: 300px !important;
+    }
+    ::ng-deep  .main{
+    height: 300px !important;
+}
+    
+}
+

@@ -4,7 +4,27 @@
     <div class="header-right">
         <a class="active" href="#home">Home</a>
         <a (click)="scroll('products')">Products</a>
-        <a  (click)="scroll('contact')">Contact</a>
-        <a  (click)="scroll('about')">About</a>
+        <a (click)="scroll('contact')">Contact</a>
+        <a (click)="scroll('about')">About</a>
+    </div>
+</div>
+
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="#home" class="mobile-header">
+            LOGO
+        </a>
+        <div id="myLinks">
+            <a class="active" href="#home">Home</a>
+            <a (click)="scroll('products')">Products</a>
+            <a (click)="scroll('contact')">Contact</a>
+            <a (click)="scroll('about')">About</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" (click)="openNav()">
+            <fa-icon [icon]="faBars" size="lg" text="www.flochemindia.com" ></fa-icon>
+        </a>
     </div>
 </div>
