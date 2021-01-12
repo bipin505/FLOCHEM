@@ -99,9 +99,24 @@ img {
     -o-transform: rotate(360deg);
 }
 .about-us-content{
-    background: #FFFFFF;
+    /* background: #FFFFFF;
 background: -webkit-linear-gradient(top left, #FFFFFF, #8B008B);
 background: -moz-linear-gradient(top left, #FFFFFF, #8B008B);
-background: linear-gradient(to bottom right, #FFFFFF, #8B008B);
+background: linear-gradient(to bottom right, #FFFFFF, #8B008B); */
 height: 600px;
+background: url('/assets/images/about-us-background.jpg');
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+.about-us-content p{
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+    font-size: 24px;
+    display: block;
+    margin: 0 auto;
+    color: #8B008B;
+    font-weight: 600;
+    font-style: italic;
 }
