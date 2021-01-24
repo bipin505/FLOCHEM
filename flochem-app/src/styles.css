@@ -18,3 +18,9 @@ ul{
        font-size: 22px;
     }
 }
+h1.heading{
+    background: -webkit-linear-gradient(top left, #FFFFFF, #8B008B);
+background: -moz-linear-gradient(top left, #FFFFFF, #8B008B);
+background: linear-gradient(to bottom right, #FFFFFF, #8B008B);
+color:#000
+}
