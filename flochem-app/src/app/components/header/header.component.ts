@@ -29,4 +29,7 @@ faBars:any;
       x.style.display = "block";
     }
   }
+  scrollToTop(){
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }
 }
