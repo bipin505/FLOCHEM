@@ -31,11 +31,6 @@ export class AppComponent implements OnInit {
     image: '/assets/images/6.jpg',
     thumbImage: '/assets/images/6.jpg',
     title: ''
-  },
-  {
-    image: '/assets/images/7.jpg',
-    thumbImage: '/assets/images/7.jpg',
-    title: ''
   }];
   ngOnInit() {
     window.onscroll = function () { myFunction() };

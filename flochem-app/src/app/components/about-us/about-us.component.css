@@ -98,6 +98,11 @@ img {
     -moz-transform: rotate(360deg);
     -o-transform: rotate(360deg);
 }
+
+
+#about{
+    margin-top: 80px;
+}
 .about-us-content{
     /* background: #FFFFFF;
 background: -webkit-linear-gradient(top left, #FFFFFF, #8B008B);
@@ -111,12 +116,12 @@ background-repeat: no-repeat;
 
 .about-us-content p{
     padding: 20px;
-    width: 80%;
-    text-align: center;
-    font-size: 24px;
+    text-align: justify;
+    font-size: 30px;
     display: block;
     margin: 0 auto;
-    color: #8B008B;
+    color: #000;
     font-weight: 600;
-    font-style: italic;
+    font-style: normal;
+    line-height: 60px;
 }
