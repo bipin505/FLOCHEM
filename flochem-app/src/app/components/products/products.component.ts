@@ -43,18 +43,21 @@ export class ProductsComponent implements OnInit {
       {
         'id': '1',
         'name': 'Polyacrylamide',
+        'sd':'We have multiple varieties of Anionic, Cationic and Non Ionic Polyacrylamide which have been...',
         'desc': 'We have multiple varieties of Anionic, Cationic and Non Ionic Polyacrylamide which have been developed based on client’s requirement from different industries. Some of our popular range of Polyacrylamide include FC 701, FC 703, FC 720…',
         'image': 'assets/images/Polyacrylamide.jpg'
       },
       {
         'id': '2',
         'name': 'Coagulants',
+        'sd':'The working of a coagulant depends on multiple factors right from pH of the waste...',
         'desc': 'The working of a coagulant depends on multiple factors right from pH of the waste water to the fine particles present in it.We thus have different coagulants based on different needs and also deal into common coagulants such as Alum, Polyaluminium chloride, Sodium Hypochlorite etc',
         'image': 'assets/images/Coagulant.jpg'
       },
       {
         'id': '3',
         'name': 'Soda ash & Baking soda',
+        'sd':'We deal in multiple brands of Sodium Carbonate (Soda ash) and Sodium Bi-Carbonate...',
         'desc': 'We deal in multiple brands of Sodium Carbonate (Soda ash) and Sodium Bi-Carbonate (Baking soda) as per client’s requirement. Both products are available in Food grade too with our brand FC 301 (Food grade Sodium Carbonate) being a popular choice among bottled water clients.',
         'image': 'assets/images/Sodaash.jpg'
       }
