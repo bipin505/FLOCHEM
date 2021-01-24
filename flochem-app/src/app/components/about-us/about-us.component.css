@@ -125,3 +125,10 @@ background-repeat: no-repeat;
     font-style: normal;
     line-height: 60px;
 }
+
+@media screen and (max-width: 480px){
+    .about-us-content p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}

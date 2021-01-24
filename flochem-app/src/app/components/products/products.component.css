@@ -4,7 +4,30 @@
   overflow: hidden;
   margin-top: 80px;
 }
+#details {
+  overflow: hidden;
+  margin-top: 80px;
+  padding: 20px;
+  display: none;
+}
 
+#details .product-image {
+  float: left;
+  width: 30%;
+  margin-top: 20px;
+}
+
+#details .product-image img {
+  width: 100%;
+}
+
+#details .product-detail {
+  float: left;
+  width: 70%;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: justify;
+}
 .products-container {
   font-family: Helvetica, san-serif;
   background: #FFFFFF;
@@ -316,7 +339,7 @@
 @media screen and (max-width: 768px) {
   .card {
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
     float: none;
   }
   .wrapper {
@@ -338,30 +361,24 @@
   .wrapper {
     height: 100%;
   }
+  .products-container{
+    display: block;
+  }
+  #details .product-image {
+    float: none;
+    width: 100% ;
+  }
+  #details .product-image img {
+    display: block;
+    margin: 0 auto;
+  }
+  #details .product-detail {
+    float: none;
+    width: 100%;
+  }
 }
 
-#details {
-  overflow: hidden;
-  margin-top: 80px;
-  padding: 20px;
-  display: none;
-}
 
-#details .product-image {
-  float: left;
-  width: 30%;
-}
-
-#details .product-image img {
-  width: 100%;
-}
-
-#details .product-detail {
-  float: left;
-  width: 70%;
-  font-size: 24px;
-  line-height: 40px;
-}
 
 .flip-card {
   background-color: transparent;
