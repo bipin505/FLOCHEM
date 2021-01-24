@@ -1,7 +1,7 @@
 <div id=products>
-    <h1>BUSINESS &amp; PRODUCTS</h1>
+    <h1 class="heading">BUSINESS &amp; PRODUCTS</h1>
     <div class="wrapper">
-        <div class="card1 bounce " *ngFor='let product of products' (click)="showDeatils(product.id)">
+        <div class="card1 bounce " *ngFor='let product of products' (click)="showDeatils(product.id,true)">
             <div class="arrow bounce"></div>
             <div class="card__content">
                 <p>{{product.desc}}</p>
@@ -20,7 +20,11 @@
         <div class='card-wrapper' *ngFor='let data of productslist'>
             <div class="card transition">
                 <h2 class="transition">{{data.name}}</h2>
-                <p class='desc'>{{data.desc}}</p>
+                <!-- <p class='desc'>{{data.desc}}</p> -->
+                <ul class="list">
+                    <li *ngFor="let list of data.items">{{list}}</li>
+                </ul>
+                <button class="btn" (click)="showDeatils(data.id,false)">Click here for more details</button>
                 <div class="card_circle transition {{data.path}}">
                 </div>
             </div>
@@ -41,9 +45,10 @@
 <div id='details'>
     <div class="product-image">
         <img src="{{productImage}}"/>
-        <h2>{{productName}}</h2>
+        
     </div>
     <div class="product-detail">
+        <h2>{{productName}}</h2>
         {{productDetail}}
     </div>
 </div>
