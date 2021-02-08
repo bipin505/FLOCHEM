@@ -112,7 +112,6 @@ img {
 background: -webkit-linear-gradient(top left, #FFFFFF, #8B008B);
 background: -moz-linear-gradient(top left, #FFFFFF, #8B008B);
 background: linear-gradient(to bottom right, #FFFFFF, #8B008B); */
-    height: 600px;
     background: url('/assets/images/about-us-background.jpg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -121,13 +120,13 @@ background: linear-gradient(to bottom right, #FFFFFF, #8B008B); */
 .about-us-content p {
     padding: 20px;
     text-align: justify;
-    font-size: 30px;
+    font-size: 22px;
     display: block;
     margin: 0 auto;
     color: #000;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
-    line-height: 60px;
+    line-height: 30px;
 }
 
 @media screen and (max-width: 480px) {
