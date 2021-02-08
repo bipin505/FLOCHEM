@@ -123,8 +123,10 @@
 }
 
 .mobile-header{
-    background-color: #8B008B;
+    background-color: #fff;
+    border-bottom:  1px solid #8B008B;
 }
+
 
 @media screen and (min-width: 769px) {
     .mobile-container {
@@ -138,4 +140,12 @@
     #myHeader{
         display: none;
     }
+}
+
+.mob-header{
+    padding: 0 !important;
+    height: 50px;
+}
+.mob-header img{
+    width: 100px;
 }
