@@ -3,9 +3,9 @@
         <img src="../../../assets/images/FC_logo.png" width='200' height="100" alt="FLO Chem Logo" data-scale="1"> </a>
     <div class="header-right">
         <a class="active" (click)="scrollToTop()">Home</a>
-        <a (click)="scroll('about')">About</a>
-        <a (click)="scroll('products')">Products</a>
-        <a (click)="scroll('contact')">Contact</a>
+        <a (click)="scroll('about-dummy')">About</a>
+        <a (click)="scroll('products-dummy')">Products</a>
+        <a (click)="scroll('contact-dummy')">Contact</a>
 
     </div>
 </div>
@@ -15,14 +15,14 @@
 
     <!-- Top Navigation Menu -->
     <div class="topnav">
-        <a href="#home" class="mobile-header">
-            LOGO
+        <a href="#home" class="mobile-header mob-header">
+            <img src="./assets/images/FC_logo.png">
         </a>
         <div id="myLinks">
             <a class="active" href="#home">Home</a>
-            <a (click)="scroll('products')">Products</a>
-            <a (click)="scroll('contact')">Contact</a>
-            <a (click)="scroll('about')">About</a>
+            <a (click)="scroll('products-dummy')">Products</a>
+            <a (click)="scroll('contact-dummy')">Contact</a>
+            <a (click)="scroll('about-dummy')">About</a>
         </div>
         <a href="javascript:void(0);" class="icon" (click)="openNav()">
             <fa-icon [icon]="faBars" size="lg" text="www.flochemindia.com"></fa-icon>

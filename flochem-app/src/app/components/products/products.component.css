@@ -379,6 +379,10 @@
     float: none;
     width: 100%;
   }
+  .product-detail{
+    font-size: 20px !important;
+    line-height: 32px  !important;
+  }
 }
 
 .flip-card {

@@ -24,3 +24,8 @@ background: -moz-linear-gradient(top left, #FFFFFF, #8B008B);
 background: linear-gradient(to bottom right, #FFFFFF, #8B008B);
 color:#000
 }
+
+#about-dummy,#contact-dummy,#products-dummy{
+    display: block;
+    height: 1px;
+}

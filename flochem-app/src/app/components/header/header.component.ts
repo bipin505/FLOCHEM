@@ -18,7 +18,9 @@ faBars:any;
   }
   scroll(id){
     this.el = document.getElementById(id);
-    this.el.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+    this.el.scrollIntoView();
+    var x = document.getElementById("myLinks");
+    x.style.display = "none";
 
   }
   openNav(){
