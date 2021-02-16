@@ -1,5 +1,15 @@
 <div id=products>
     <h1 class="heading" id="products-dummy">BUSINESS &amp; PRODUCTS</h1>
+    <div id='details'>
+        <div class="product-image">
+            <img src="{{productImage}}"/>
+            
+        </div>
+        <div class="product-detail">
+            <h2>{{productName}}</h2>
+            {{productDetail}}
+        </div>
+    </div>
     <div class="wrapper">
         <div class="card1 bounce " *ngFor='let product of products' (click)="showDeatils(product.id,true)">
             <div class="arrow bounce"></div>
@@ -42,13 +52,3 @@
     </div>
 </div>
 
-<div id='details'>
-    <div class="product-image">
-        <img src="{{productImage}}"/>
-        
-    </div>
-    <div class="product-detail">
-        <h2>{{productName}}</h2>
-        {{productDetail}}
-    </div>
-</div>

@@ -78,5 +78,8 @@ export class ProductsComponent implements OnInit {
       this.productImage = this.productslist[parseInt(id) - 1]['image'];
       this.productName = this.productslist[parseInt(id) - 1]['name'];
     }
+    setTimeout(() => {
+      document.getElementById('details').style.display = 'none';
+    }, 12000);
   }
 }
