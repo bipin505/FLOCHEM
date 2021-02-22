@@ -80,6 +80,6 @@ export class ProductsComponent implements OnInit {
     }
     setTimeout(() => {
       document.getElementById('details').style.display = 'none';
-    }, 12000);
+    }, 25000);
   }
 }
