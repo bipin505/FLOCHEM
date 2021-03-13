@@ -18,7 +18,7 @@ faBars:any;
   }
   scroll(id){
     this.el = document.getElementById(id);
-    this.el.scrollIntoView();
+    this.el.scrollIntoView({behavior: "smooth"});
     var x = document.getElementById("myLinks");
     x.style.display = "none";
 
