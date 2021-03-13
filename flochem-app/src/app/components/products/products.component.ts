@@ -28,7 +28,7 @@ export class ProductsComponent implements OnInit {
       'desc': 'We have tied up with several Motor and Pump manufacturers to cater to our customer’s need accordingly. Compatible products like Impellers and other Spares with best quality can also be provided.',
       'path': 'image2',
       'items': ['Branded Pumps and Motors', 'Rubber and Metal Impellers', 'Gear Box'],
-      'image': 'assets/images/product2.jpg'
+      'image': 'assets/images/Product_2.jpg'
     },
     {
       'id': '3',
@@ -78,8 +78,5 @@ export class ProductsComponent implements OnInit {
       this.productImage = this.productslist[parseInt(id) - 1]['image'];
       this.productName = this.productslist[parseInt(id) - 1]['name'];
     }
-    setTimeout(() => {
-      document.getElementById('details').style.display = 'none';
-    }, 25000);
   }
 }
