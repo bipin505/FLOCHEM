@@ -17,11 +17,17 @@ faBars:any;
     this.faBars = faBars;
   }
   scroll(id){
+    debugger;
     this.el = document.getElementById(id);
     this.el.scrollIntoView({behavior: "smooth"});
     var x = document.getElementById("myLinks");
     x.style.display = "none";
-
+    if(id == 'about-dummy') {
+      document.getElementById('slide').classList.add('slide-right');
+    }
+    else{
+      document.getElementById('slide').classList.remove('slide-right');
+    }
   }
   openNav(){
     var x = document.getElementById("myLinks");
