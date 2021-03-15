@@ -18,6 +18,7 @@ faBars:any;
   }
   scroll(id){
     debugger;
+    document.getElementById('slide').classList.remove('slide-right');
     this.el = document.getElementById(id);
     this.el.scrollIntoView({behavior: "smooth"});
     var x = document.getElementById("myLinks");

@@ -17,7 +17,7 @@ export class ProductsComponent implements OnInit {
     this.productslist = [{
       'id': '1',
       'name': 'PU & Rubber Products',
-      'desc': 'Flochem is known for it’s customization of products based on customer’s need with it’s expertise in multiple sizes of PU mat panels, PU spray nozzles, PU wheels, rubber impellers and more.Also we can assist our clients with multiple other spare parts related to Mineral / Sand washing plants.',
+      'desc': 'Flochem is known for it’s customization of products based on customer’s need with it’s expertise in multiple sizes of PU mat panels, PU spray nozzles, PU wheels, rubber impellers and more. Also we can assist our clients with multiple other spare parts related to Mineral / Sand washing plants.',
       'path': 'image1',
       'items': ['Customized PU Mat Panels', 'PU Spray Nozels', 'PU wheels'],
       'image': 'assets/images/product1.jpg'
@@ -33,7 +33,7 @@ export class ProductsComponent implements OnInit {
     {
       'id': '3',
       'name': 'Dosing systems',
-      'desc': 'Dosing systems are a basic need for multiple operating plants requiring fixed dosage of flocculants or other chemicals. Normally small industries opt for manual mixing and dosing of the chemicals which usually leads to wastage of chemicals and improper dosage in varying quantities.We have thus developed some simple model with easy mixing technique which enables uniform mixing and is pocket friendly to the customers seeking economical solution.On the other hand we also have fully automatic dosing system which can handle itself completely with just the push of a button (To be programmed once as per requirement).We can make customized systems too based on customer’s need.',
+      'desc': 'Dosing systems are a basic need for multiple operating plants requiring fixed dosage of flocculants or other chemicals. Normally small industries opt for manual mixing and dosing of the chemicals which usually leads to wastage of chemicals and improper dosage in varying quantities. We have thus developed some simple model with easy mixing technique which enables uniform mixing and is pocket friendly to the customers seeking economical solution. On the other hand we also have fully automatic dosing system which can handle itself completely with just the push of a button (To be programmed once as per requirement). We can make customized systems too based on customer’s need.',
       'path': 'image3',
       'items': ['Fully Automatic System','Semi Automatic System','Manual System'],
       'image': 'assets/images/Dosing system_Edit.jpg'
@@ -51,7 +51,7 @@ export class ProductsComponent implements OnInit {
         'id': '2',
         'name': 'Coagulants',
         'sd':'The working of a coagulant depends on multiple factors right from pH of the waste...',
-        'desc': 'The working of a coagulant depends on multiple factors right from pH of the waste water to the fine particles present in it.We thus have different coagulants based on different needs and also deal into common coagulants such as Alum, Polyaluminium chloride, Sodium Hypochlorite etc',
+        'desc': 'The working of a coagulant depends on multiple factors right from pH of the waste water to the fine particles present in it. We thus have different coagulants based on different needs and also deal into common coagulants such as Alum, Polyaluminium chloride, Sodium Hypochlorite etc',
         'image': 'assets/images/Coagulant.jpg'
       },
       {
